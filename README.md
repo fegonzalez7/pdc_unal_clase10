@@ -160,7 +160,7 @@ while bandera or num != 0:
 print("Ciclo terminado")
 ```
 
-## Reto 8
+## Reto 7
 Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual asimismo cree un notebook con la solución a todos los problemas. Al finalizar suba todo a un repo y subalo al canal reto_8 en slack, los tres primeros puntos deben incluir diagrama de flujo.
 
 **Nota:** Todo el código de aquí en adelante debe ir debidamente documentado.
