@@ -61,10 +61,10 @@ print(i, j, sep = ", ") # valores finales de i y j
 **Ejercicios:**
 1. Diseñe un algoritmo que involucre un ciclo y que nunca ingrese al ciclo.
 2. Diseñe un algoritmo que involucre un ciclo y que se ejecute indefinidamente.
-3. Diseñe un algoritmo que pida un valor entero, y que siga leyendo valores enteros mientras que alguno de esos valores no represente el código [ASCII](https://elcodigoascii.com.ar/) de una letra mayúscula en el abc del inglés.
+3. Diseñe un algoritmo que pida un valor entero, y que siga leyendo valores enteros, mientras que alguno de esos valores no represente el código [ASCII](https://elcodigoascii.com.ar/) de una letra mayúscula en el abc del inglés.
 
 ### Ciclo do-while
-Existe otra estructura c´ıclica en programación, ésta se conoce como un ciclo *hacer-mientras* (do). Esta estructura es casi equivalente a la estructura mientras (while), ya que usualmente se utiliza cuando con seguridad y de forma anticipada se sabe que se **hará al menos una evaluación del bloque principal del ciclo**. En esta estructura c´ıclica la verificación de la condición de parada se realiza al final del ciclo
+Existe otra estructura cíclica en programación, ésta se conoce como un ciclo *hacer-mientras* (do). Esta estructura es casi equivalente a la estructura mientras (while), ya que usualmente se utiliza cuando con seguridad y de forma anticipada se sabe que se **hará al menos una evaluación del bloque principal del ciclo**. En esta estructura cíclica la verificación de la condición de parada se realiza al final del ciclo
 
 **Diagrama de flujo:**
 <div align='center'>
@@ -72,7 +72,7 @@ Existe otra estructura c´ıclica en programación, ésta se conoce como un cicl
 <figcaption><b>Diagrama de flujo ciclo <i>do-while</i></b></figcaption></figure>
 </div>
 
-Si bien en Python no existe una forma dedicada para realizar el ciclo *do-while* (a diferencia de por ejemplo C), la siguiente es una implmentación al flujo del ciclo.
+Si bien en Python no existe una forma dedicada para realizar el ciclo *do-while* (a diferencia de por ejemplo C), la siguiente es una implementación al flujo del ciclo.
 
 **Python:**
 ```python
@@ -102,7 +102,7 @@ bandera = True
 <bloque_sigui>
 ```
 
-**Ejemplo 4:** Implementar ej ejercicio 4 usando un *do while* con bandera.
+**Ejemplo 4:** Implementar el ejercicio 4 usando un *do while* con bandera.
 
 ```python
 bandera : bool = True
@@ -113,13 +113,13 @@ while bandera or (num < 65 or num > 90):
 ```
 
 ### break y continue
-*break* y *continue* son palabras reservadas para controlar el flujo de ejecución de una estructura de iteraicón o selección en Python.
+*break* y *continue* son palabras reservadas para controlar el flujo de ejecución de una estructura de iteración o selección en Python.
 
-+ **continue:** Permite terminar la ejecución de la iteración actual pasando a la siguiente evaluación del ciclo. **Traucción** es la salida forzada de la iteración *actual* del ciclo.
++ **continue:** Permite terminar la ejecución de la iteración actual pasando a la siguiente evaluación del ciclo. **Traducción** es la salida forzada de la iteración *actual* del ciclo.
 
-+ **break:** Termina la ejecución del ciclo sin que se evaluen más condiciones. **Traducción** es la salida forzada de un ciclo.
++ **break:** Termina la ejecución del ciclo sin que se evalúen más condiciones. **Traducción** es la salida forzada de un ciclo.
 
-**Pro tip:** El uso indiscriminado del *break* puede llevar al diseño pobre de algoritmos ya que se que por facilidad no se evaluan adecuadamente las condiciones de terminación de los ciclos.
+**Pro tip:** El uso indiscriminado del *break* puede llevar al diseño pobre de algoritmos, ya que se que por facilidad no se evalúan adecuadamente las condiciones de terminación de los ciclos.
 
 
 **Ejemplo 5:** Hacer un programa que imprima los números del 1 al 10, exceptuando el 5.
@@ -161,7 +161,7 @@ print("Ciclo terminado")
 ```
 
 ## Reto 7
-Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual asimismo cree un notebook con la solución a todos los problemas. Al finalizar suba todo a un repo y subalo al canal reto_7 en slack, los tres primeros puntos deben incluir diagrama de flujo.
+Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual, asimismo cree un notebook con la solución a todos los problemas. Al finalizar suba todo a un repo y súbalo al canal reto_7 en Slack, los tres primeros puntos deben incluir diagrama de flujo.
 
 **Nota:** Todo el código de aquí en adelante debe ir debidamente documentado.
 
