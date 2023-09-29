@@ -102,7 +102,7 @@ bandera = True
 <bloque_sigui>
 ```
 
-**Ejemplo 4:** Implementar ej ejercicio 4 usando un *do while* con bandera.
+**Ejemplo 3:** Implementar ej ejercicio 4 usando un *do while* con bandera.
 
 ```python
 bandera : bool = True
@@ -122,7 +122,7 @@ while bandera or (num < 65 or num > 90):
 **Pro tip:** El uso indiscriminado del *break* puede llevar al diseño pobre de algoritmos ya que se que por facilidad no se evaluan adecuadamente las condiciones de terminación de los ciclos.
 
 
-**Ejemplo 5:** Hacer un programa que imprima los números del 1 al 10, exceptuando el 5.
+**Ejemplo 4:** Hacer un programa que imprima los números del 1 al 10, exceptuando el 5.
 
 ```python
 i : int = 0 
@@ -133,7 +133,7 @@ while(i < 10):
   print(i) 
 ```
 
-**Ejemplo 6:** Desarrollar un programa que lea números enteros y los sume hasta que lea un cero (0).
+**Ejemplo 5:** Desarrollar un programa que lea números enteros y los sume hasta que lea un cero (0).
 
 ```python
 sum : int = 0
@@ -146,7 +146,7 @@ while True:
 print("Ciclo terminado")
 ```
 
-**Ejemplo 7:** Implementar el *ejemplo 6* sin usar la instrucción *break*.
+**Ejemplo 6:** Implementar el *ejemplo 6* sin usar la instrucción *break*.
 
 ```python
 sum : int = 0
