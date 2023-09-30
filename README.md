@@ -146,7 +146,7 @@ while True:
 print("Ciclo terminado")
 ```
 
-**Ejemplo 6:** Implementar el *ejemplo 6* sin usar la instrucción *break*.
+**Ejemplo 6:** Implementar el *ejemplo 5* sin usar la instrucción *break*.
 
 ```python
 sum : int = 0
