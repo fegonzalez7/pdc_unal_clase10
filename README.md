@@ -173,5 +173,5 @@ la de A.
 5. Imprimir el factorial de un número natural n dado.
 6. Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 7. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
-8. Implementar el algoritmo que muestre los números primos del 1 al 100. **nota:** use funciones
+8. Implementar el algoritmo que muestre los números primos del 1 al 100. **Nota:** use funciones
 
