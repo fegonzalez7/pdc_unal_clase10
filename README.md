@@ -1,8 +1,19 @@
 # Programación de Computadores - UNAL
+
+## Tabla de Contenidos
+
+- [Bucles 1](#bucles-1)
+- [Ciclo while](#ciclo-while)
+- [Ciclo do-while](#ciclo-do-while)
+- [Uso de banderas](#uso-de-banderas)
+- [break y continue](#break-y-continue)
+- [Reto 7](#reto-7)
+
+
 ## Bucles 1
 
 ### Ciclo while
-El ciclo mientras (while) permite ejecutar un bloque de instrucciones mientras que una expresión booleana dada se cumpla, es decir, mientras su evaluación dé como resultado verdadero.
+El ciclo mientras (*while*) permite ejecutar un bloque de instrucciones mientras que una expresión booleana dada se cumpla, es decir, mientras su evaluación dé como resultado verdadero.
 
 La expresión booleana se denomina condición de parada y siempre se evalúa antes de ejecutar el bloque de instrucciones; tras esto se pueden presentar dos casos:
 
@@ -61,7 +72,7 @@ print(i, j, sep = ", ") # valores finales de i y j
 **Ejercicios:**
 1. Diseñe un algoritmo que involucre un ciclo y que nunca ingrese al ciclo.
 2. Diseñe un algoritmo que involucre un ciclo y que se ejecute indefinidamente.
-3. Diseñe un algoritmo que pida un valor entero, y que siga leyendo valores enteros mientras que alguno de esos valores no represente el código [ASCII](https://elcodigoascii.com.ar/) de una letra mayúscula en el abc del inglés.
+3. Diseñe un algoritmo que pida un valor entero, y que siga leyendo valores enteros mientras que alguno de esos valores no represente el código [ASCII](https://elcodigoascii.com.ar/) de una letra mayúscula en el abecedario del inglés.
 
 ### Ciclo do-while
 Existe otra estructura c´ıclica en programación, ésta se conoce como un ciclo *hacer-mientras* (do). Esta estructura es casi equivalente a la estructura mientras (while), ya que usualmente se utiliza cuando con seguridad y de forma anticipada se sabe que se **hará al menos una evaluación del bloque principal del ciclo**. En esta estructura c´ıclica la verificación de la condición de parada se realiza al final del ciclo
@@ -160,18 +171,15 @@ while bandera or num != 0:
 print("Ciclo terminado")
 ```
 
-## Reto 7
-Desarrolle de manera **individual** la mayoría de ejercicios en clase. Para cada punto cree un programa individual asimismo cree un notebook con la solución a todos los problemas. Al finalizar suba todo a un repo y subalo al canal reto_7 en slack, los tres primeros puntos deben incluir diagrama de flujo.
+## Reto 6
+Desarrolle de manera **individual** la mayoría de ejercicios en clase. Para cada punto cree un programa individual asimismo cree un notebook con la solución a todos los problemas. Al finalizar suba todo a un repo y subalo al canal reto_6 en slack, los tres primeros puntos deben incluir diagrama de flujo.
 
 **Nota:** Todo el código de aquí en adelante debe ir debidamente documentado.
 
 1. Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
 2.  Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 3.  Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
-4. En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a
-la de A.
-5. Imprimir el factorial de un número natural n dado.
-6. Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
-7. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
-8. Implementar el algoritmo que muestre los números primos del 1 al 100. **Nota:** use funciones
+4. Imprimir el factorial de un número natural n dado.
+5. Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
+6. Implementar el algoritmo que muestre los números primos del 1 al 100. **Nota:** use funciones
 
