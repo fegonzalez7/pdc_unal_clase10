@@ -106,7 +106,7 @@ Para evitar duplicar código al implementar un ciclo *do while* se pueden usar b
 <bloque_prev>
 <inicia>
 bandera = True
-  while(bandera or <cond>):
+while(bandera or <cond>):
   bandera = False
   <bloque>
   <actualiza>
