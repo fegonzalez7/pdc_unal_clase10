@@ -91,7 +91,7 @@ Si bien en Python no existe una forma dedicada para realizar el ciclo *do-while*
 <inicia>
 <bloque>
 <actualiza>
-  while(<cond>):
+while(<cond>):
   <bloque>
   <actualiza>
 <bloque_sigui>
